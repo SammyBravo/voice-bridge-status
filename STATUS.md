@@ -2,16 +2,16 @@
 
 Mode: READ ONLY
 
-Revision: 22
+Revision: 23
 
-Marker: `VOICE_RESPONSE_VOICE_MRQ3GCUX_112DB3434D_READY`
+Marker: `VOICE_RESPONSE_VOICE_MRQ3M9SJ_51E90EB761_READY`
 
-Updated: 2026-07-18T08:18:34.301Z
+Updated: 2026-07-18T08:22:36.983Z
 
-Current task: Voice bridge request voice_mrq3gcux_112db3434d completed by target test-worker.
+Current task: Voice bridge request voice_mrq3m9sj_51e90eb761 completed by target test-worker.
 
 Progress:
-- Request ID: voice_mrq3gcux_112db3434d
+- Request ID: voice_mrq3m9sj_51e90eb761
 - Target: test-worker
 - Target task: Voice Bridge Worker
 - Status: completed
@@ -20,13 +20,8 @@ Progress:
 
 ## Worker feedback
 
-> Status verified:
+> Both desktop-bridge test runs passed: 13/13 tests each, 26/26 total.
 >  
-> - Test pass 1: 13/13 passed
-> - Test pass 2: 13/13 passed
-> - Health before, during, and after: healthy
-> - Primary window, app-host connector, and task API: available
->  
-> VOICE_STATUS_E2E_FINAL_OK
+> MANUAL_STATUS_REPRO_FINAL_OK
 
 Standing refresh rule: fetch this STATUS.md path with a new `refresh` query value every time so the page reader does not reuse an earlier cached result.
