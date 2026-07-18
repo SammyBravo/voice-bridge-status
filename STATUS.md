@@ -2,16 +2,16 @@
 
 Mode: READ ONLY
 
-Revision: 18
+Revision: 19
 
-Marker: `VOICE_RESPONSE_VOICE_MRQ0TTH8_35B7A3438E_READY`
+Marker: `VOICE_RESPONSE_VOICE_MRQ0W022_BAE414390E_READY`
 
-Updated: 2026-07-18T07:04:24.509Z
+Updated: 2026-07-18T07:06:11.939Z
 
-Current task: Voice bridge request voice_mrq0tth8_35b7a3438e completed by target test-worker.
+Current task: Voice bridge request voice_mrq0w022_bae414390e completed by target test-worker.
 
 Progress:
-- Request ID: voice_mrq0tth8_35b7a3438e
+- Request ID: voice_mrq0w022_bae414390e
 - Target: test-worker
 - Target task: Voice Bridge Worker
 - Status: completed
@@ -20,6 +20,14 @@ Progress:
 
 ## Worker feedback
 
-> Right here.
+> Local folder contents:
+>  
+> - `.agents/`
+> - `.git/`
+> - `.llmmcp/`
+> - `codex/`
+> - `desktop/`
+> - `desktop-bridge/`
+> - `uac-check.txt` (10 bytes)
 
 Standing refresh rule: fetch this STATUS.md path with a new `refresh` query value every time so the page reader does not reuse an earlier cached result.
