@@ -2,16 +2,16 @@
 
 Mode: READ ONLY
 
-Revision: 28
+Revision: 29
 
-Marker: `VOICE_RESPONSE_VOICE_47A47D4BA3_READY`
+Marker: `VOICE_RESPONSE_VOICE_E66C278B5A_READY`
 
-Updated: 2026-07-18T08:38:50.591Z
+Updated: 2026-07-18T08:41:07.915Z
 
-Current task: Voice bridge request voice_47a47d4ba3 completed by target test-worker.
+Current task: Voice bridge request voice_e66c278b5a completed by target test-worker.
 
 Progress:
-- Request ID: voice_47a47d4ba3
+- Request ID: voice_e66c278b5a
 - Target: test-worker
 - Target task: Voice Bridge Worker
 - Status: completed
@@ -20,6 +20,12 @@ Progress:
 
 ## Worker feedback
 
-> The AI_PLC goal is active and not stalled. All variables/events gates passed, and it had moved on to comparing the current UI assets across the source, simulator container, served page, and reported build hashes. No error was reported.
+> Caddy is running on the C-GADA machine.
+>  
+> - [Public browser-relay route](https://realtimebridge.duckdns.org/browser-relay): HTTP 200
+> - Server header: `Caddy`
+> - Protected API route also responded with the expected unauthenticated rejection.
+>  
+> Direct process enumeration was blocked by WinRM authentication, but the live HTTPS response confirms Caddy is actively serving traffic.
 
 Standing refresh rule: fetch this STATUS.md path with a new `refresh` query value every time so the page reader does not reuse an earlier cached result.
