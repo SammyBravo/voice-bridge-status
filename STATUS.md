@@ -2,16 +2,16 @@
 
 Mode: READ ONLY
 
-Revision: 16
+Revision: 17
 
-Marker: `VOICE_RESPONSE_VOICE_MRPZZ3UV_1E720C937C_READY`
+Marker: `VOICE_RESPONSE_VOICE_MRPZZATA_94BC9CD744_READY`
 
-Updated: 2026-07-18T06:40:18.845Z
+Updated: 2026-07-18T06:40:27.191Z
 
-Current task: Voice bridge request voice_mrpzz3uv_1e720c937c completed by target test-worker.
+Current task: Voice bridge request voice_mrpzzata_94bc9cd744 completed by target test-worker.
 
 Progress:
-- Request ID: voice_mrpzz3uv_1e720c937c
+- Request ID: voice_mrpzzata_94bc9cd744
 - Target: test-worker
 - Target task: Voice Bridge Worker
 - Status: completed
@@ -20,6 +20,6 @@ Progress:
 
 ## Worker feedback
 
-> Understood—stopping here.
+> Standing by.
 
 Standing refresh rule: fetch this STATUS.md path with a new `refresh` query value every time so the page reader does not reuse an earlier cached result.
