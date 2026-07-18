@@ -2,16 +2,16 @@
 
 Mode: READ ONLY
 
-Revision: 10
+Revision: 11
 
-Marker: `VOICE_RESPONSE_REQ_37X41_READY`
+Marker: `VOICE_RESPONSE_VOICE_MRPZWZHY_64D565A012_READY`
 
-Updated: 2026-07-18T06:38:41.236Z
+Updated: 2026-07-18T06:38:53.517Z
 
-Current task: Voice bridge request req_37x41 completed by target test-worker.
+Current task: Voice bridge request voice_mrpzwzhy_64d565a012 completed by target test-worker.
 
 Progress:
-- Request ID: req_37x41
+- Request ID: voice_mrpzwzhy_64d565a012
 - Target: test-worker
 - Target task: Voice Bridge Worker
 - Status: completed
@@ -20,6 +20,10 @@ Progress:
 
 ## Worker feedback
 
-> 37 × 41 = **1,517**, calculated as 37 × 40 + 37 = 1,480 + 37.
+> Request ID: `req_37x41`  
+> Target: `test-worker`  
+> Status: Completed  
+> Result: **1,517**  
+> Explanation: 37 × 41 = 37 × 40 + 37 = 1,480 + 37.
 
 Standing refresh rule: fetch this STATUS.md path with a new `refresh` query value every time so the page reader does not reuse an earlier cached result.
