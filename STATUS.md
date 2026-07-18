@@ -2,16 +2,16 @@
 
 Mode: READ ONLY
 
-Revision: 15
+Revision: 16
 
-Marker: `VOICE_RESPONSE_VOICE_MRPZWZIA_E7F5E6CB21_READY`
+Marker: `VOICE_RESPONSE_VOICE_MRPZZ3UV_1E720C937C_READY`
 
-Updated: 2026-07-18T06:39:34.934Z
+Updated: 2026-07-18T06:40:18.845Z
 
-Current task: Voice bridge request voice_mrpzwzia_e7f5e6cb21 completed by target test-worker.
+Current task: Voice bridge request voice_mrpzz3uv_1e720c937c completed by target test-worker.
 
 Progress:
-- Request ID: voice_mrpzwzia_e7f5e6cb21
+- Request ID: voice_mrpzz3uv_1e720c937c
 - Target: test-worker
 - Target task: Voice Bridge Worker
 - Status: completed
@@ -20,14 +20,6 @@ Progress:
 
 ## Worker feedback
 
-> Current files include:
->  
-> - `.gitignore` — 49 bytes
-> - `Build-CodexBackend.ps1` — 1,783 bytes
-> - `Build-CodexControlMsix.ps1` — 7,707 bytes
-> - `Codex-Control-AutoStart.cmd` — 171 bytes
-> - `Configure-CodexControlWebProxy.ps1` — 4,480 bytes
-> - `Install-CodexControlMsix.ps1` — 2,806 bytes
-> - `Install-PortableCodex.ps1` — 2,926 bytes
+> Understood—stopping here.
 
 Standing refresh rule: fetch this STATUS.md path with a new `refresh` query value every time so the page reader does not reuse an earlier cached result.
