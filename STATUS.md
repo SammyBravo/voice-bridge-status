@@ -2,16 +2,16 @@
 
 Mode: READ ONLY
 
-Revision: 26
+Revision: 27
 
-Marker: `VOICE_RESPONSE_VOICE_MRQ3QL12_CDF990C492_READY`
+Marker: `VOICE_RESPONSE_VOICE_6EACBBDEF8_READY`
 
-Updated: 2026-07-18T08:26:42.614Z
+Updated: 2026-07-18T08:38:40.248Z
 
-Current task: Voice bridge request voice_mrq3ql12_cdf990c492 completed by target test-worker.
+Current task: Voice bridge request voice_6eacbbdef8 completed by target test-worker.
 
 Progress:
-- Request ID: voice_mrq3ql12_cdf990c492
+- Request ID: voice_6eacbbdef8
 - Target: test-worker
 - Target task: Voice Bridge Worker
 - Status: completed
@@ -20,14 +20,16 @@ Progress:
 
 ## Worker feedback
 
-> Retried successfully. The AI_PLC task is active and still in progress.
+> The AI_PLC goal is active and progressing with no reported error.
 >  
-> Latest confirmed state:
+> Latest status:
 >  
-> - Browser testing completed: 7 visible tests and 62 correlated evidence records.
-> - Variable and event UI flows passed, including mutation, readback, restoration, and cancel behavior.
-> - Temporary browser tabs are closed.
-> - It is completing disposable-server shutdown, temporary-auth cleanup, and final evidence promotion.
-> - No error or blocker is reported.
+> - Disposable test server and temporary authentication state cleaned up successfully.
+> - Variables/events verification is fully green:
+>   - 43/43 unit tests
+>   - 14/14 action-truth checks
+>   - 52/52 recursive contracts
+>   - 26/26 authenticated route/state checks
+> - It is now validating the exact current UI assets against `sim_rtu1`, including source, container, served, and build hash comparisons.
 
 Standing refresh rule: fetch this STATUS.md path with a new `refresh` query value every time so the page reader does not reuse an earlier cached result.
